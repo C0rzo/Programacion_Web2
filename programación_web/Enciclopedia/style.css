@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@100&display=swap');
+
+
+
+body {
+    font-family: 'Barlow Condensed', sans-serif;
+    background-color: #f2f2f2;
+    color: black;
+}
+
+
+div {
+    border: 1px solid black;
+    padding: 10px;
+    margin: 10px;
+    background-color: white;
+}
+
+
+h1,
+h2,
+h3 {
+    color: #020000;
+}
+
+
+p {
+    line-height: 20px;
+}
+
+
+img {
+    border: 5px solid black;
+    margin: 10px;
+    max-width: 100%;
+    height: auto;
+}
+
+
+.titulo {
+    background-color: #10b4d1;
+    font-size: 20px;
+}
+
+.intro {
+    background-color: #1cc3ec;
+    text-align: center;
+}
+
+.biografia {
+    background-color: #2487eb;
+    font-size: 20px;
+}
+
+.obra {
+    background-color: #2473eb;
+    font-size: 20px;
+}
+
+.subtitulo {
+    color: #000000;
+}
+
+.subseccion {
+    background-color: #e015b4;
+}
+
+.texto-intro {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.texto {
+    margin-bottom: 1px;
+    font-size: 20px;
+}
+
+.imagen-principal {
+    border-width: 10px;
+}
+
+@media (max-width: 600px) {
+    .imagent-principal {
+        border-width: 5px;
+    }
+}

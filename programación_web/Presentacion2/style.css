@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Libre Baskerville', serif;
+}
+
+
+.seccion {
+    background-color: #005A5B;
+    padding: 20px;
+    margin-bottom: 20px;
+    font-size: 35px;
+}
+
+
+.nombre {
+    background-color: #003840;
+    color: rgb(0, 0, 0);
+}
+
+.nombre h1 {
+    font-size: 2em;
+    margin: 0;
+}
+
+
+.foto img {
+    max-width: 100%;
+    display: block;
+    margin: 0 auto;
+    border: 5px solid #000000;
+}
+
+
+.gustos {
+    background-color: #007369;
+}
+
+
+.gustos h2 {
+    color: #000000;
+}
+
+.gustos ul {
+    list-style: none;
+}
